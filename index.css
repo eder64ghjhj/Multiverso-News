@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color:rgb(255, 255, 255);
+    background-image: url(assets/images/back.png);
+    background-color:rgb(3, 179, 192);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.indicador {
+    color: rgb(24, 221, 156);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 0px 10px rgb(24, 221, 156);
+    text-align: center;
+    padding: 0px;
+}
+
+.tab {
+    color: rgb(24, 221, 156);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: none;
+    text-shadow: 2px 0px 10px rgb(4, 146, 162);
+}
+
+.tab:hover {
+    color: rgb(241, 255, 240);
+    text-shadow: 2px 0px 10px rgb(241, 255, 240);
+    transition: 0.5s;
+}
+
+hr {
+    border-top: 2px solid rgb(0, 60, 255);
+}
+
+.final {
+    color: rgb(170, 172, 248);
+    text-align: center;
+    text-shadow: 2px 0px 10px rgb(255, 0, 76);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 1px;
+}
+
+.not {
+    user-select: none;
+}
+
+.cardalign {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    padding-top: 1px;
+    gap: 10px;  
+    justify-content: space-between;
+}
+
+.cardalign2 {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: rgb(4, 221, 156);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 580px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.cardimage {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.cardtext {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    padding: 1px
+}
+
+.card2 {
+    border-radius: 30px;
+    background-color: rgb(4, 221, 156);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 840px;
+    padding: 20px;
+    padding-top: 27px;
+    padding-bottom: 5px;
+}
+
+
+
+.cardtext2 {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.card3 {
+    border-radius: 30px;
+    background-color: rgb(4, 221, 156);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 850px;
+    padding: 20px;
+    padding-top: 27px;
+    padding-bottom: 5px;
+}
+
+.cardimage3 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid rgb(0, 204, 255);
+    margin: auto;
+}
+
+.cardtext3 {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.formalario {
+    background-color: rgb(0, 204, 255);
+    border-radius: 25px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+}
+
+.slott {
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 2px 2px 7px black;
+    font-size: 20px;
+}
+
+.sslot {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.buttom {
+    background-color: rgb(4, 221, 156);
+    border-radius: 25px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+    width: 80px;
+}
+
+.crie {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 7px black;
+}
+
+.voltar {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 204, 255);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 840px) {
+    .card, .card2, .card3, .cardimage, .cardimage2, .cardimage3, .cardtext, .cardtext2, .cardtext3{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .cardalign, .cardalign2, .tab, .final, .formalario{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .indicador{
+        font-size: 22px;
+    }
+}
+
+
